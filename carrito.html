@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/carrito.css">
+    <script src="javascript/helados.js"></script>
+    <script src="javascript/carritoService1.js" defer></script>
+    <script src="javascript/carrito.js" defer></script>
+    <title>Carrito de Helados</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="img/logo1.png" alt="Logo"></a>
+            <div>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="carrito.html" id="cart">
+                    <img src="img/carrito1.png" alt="">
+                    <span id="cuenta-carrito">0</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <p id="carrito-vacio">
+            ¡Ups! El carrito está vacío, a <a href="index.html">elige algunos productos</a>
+        </p>
+
+        <section id="cart-container"></section>
+
+        <section id="totales">
+            <p>Total unidades: <span id="cantidad">0</span></p>
+            <p>Total precio: $<span id="precio">0</span></p>
+            <button disabled>Comprar</button>
+            <button id="reiniciar">Reiniciar</button>
+        </section>
+    </main>
+    <footer>
+        <p> <a href="https://intjem.com" target="_blank">INTJEM</a></p>
+    </footer>
+</body>
+</html>
